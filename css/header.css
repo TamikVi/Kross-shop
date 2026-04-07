@@ -1,0 +1,102 @@
+
+
+.container {
+    max-width: 1430px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    background-color: #F7F8FA;
+}
+
+.header-inner {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header__logo-img {
+    width: 50px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__nav__login__link-text {
+    /* transition: 0.3s; */
+}
+
+/* .header__nav__login__link-text:hover {
+    transform: scale(1.1);
+    transform-origin: left;
+} */
+
+.header__nav__login-link{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 12px;
+}
+
+.header__nav__login-link:hover {
+    transform: scale(1.05);
+    transform-origin: left;
+}
+
+.header__nav__login__link-img {
+    width: 35px;
+    margin-top: -2px;
+}
+
+/* .header__nav__login__link-img:hover {
+    transform: scale(1.1);
+    transform-origin: left;
+} */
+
+
+.header__nav__like__link-img {
+    width: 35px;
+    margin-top: 4px;
+}
+
+.header__nav__like__link-img:hover {
+    transform: scale(1.05);
+    transform-origin: left;
+}
+
+.header__nav__shop__link-img {
+    width: 35px;
+    margin-top: 1px;
+}
+
+.header__nav__shop__link-img:hover {
+    transform: scale(1.05);
+    transform-origin: left;
+}
+
+.header__span {
+    width: 100%; /* Занимает всю ширину шапки */
+    height: 2px; /* Толщина полоски */
+    background-color: #67B6FF; /* Цвет полоски */
+    /* margin-top: 15px;  */
+}

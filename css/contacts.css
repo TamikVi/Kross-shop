@@ -1,0 +1,24 @@
+.main{
+    padding: 60px 0 200px 0;
+}
+
+
+.main__title-h1 {
+    font-weight: 600;
+    font-size: 54px;
+    padding-bottom: 40px;
+    padding-bottom: 60px;
+}
+.main__title-text {
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 40px;
+    padding-bottom: 140px;
+}
+.main__info {
+    font-size: 32px;
+    font-weight: 500;
+}
+.main__info-text {
+    padding-bottom: 30px;
+}
